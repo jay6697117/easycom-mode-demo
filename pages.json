@@ -1,0 +1,53 @@
+{
+  "pages": [{
+    "path": "pages/index/index",
+    "style": {
+      "navigationBarTitleText": "cc-ui",
+      "h5": {
+        "titleNView": false
+      }
+    }
+  }],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "cc-ui",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "subPackages": [{
+    "root": "views",
+    "pages": [{
+        "path": "button/index",
+        "style": {
+          "navigationBarTitleText": "button按钮-01",
+          "h5": {
+            "titleNView": false
+          }
+        }
+      }, {
+        "path": "cell/index",
+        "style": {
+          "navigationBarTitleText": "cell单元格-02",
+          "h5": {
+            "titleNView": false
+          }
+        }
+      },
+      {
+        "path": "toast/index",
+        "style": {
+          "navigationBarTitleText": "toast轻提示-03",
+          "h5": {
+            "titleNView": false
+          }
+        }
+      }
+    ]
+  }],
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^cc-(.*)": "@/components/cc-$1/cc-$1.vue"
+    }
+  }
+}

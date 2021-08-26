@@ -1,0 +1,34 @@
+{
+  "name": "cc-ui-uni-app-zjh",
+  "version": "0.0.3",
+  "description": "cc-ui, uni-app组件库, 一切为了简单",
+  "main": "index.js",
+  "files": [
+    "components",
+    "utils",
+    "package.json",
+    "README.md"
+  ],
+  "author": {
+    "name": "lp"
+  },
+  "keywords": [
+    "cc-ui",
+    "uni-app",
+    "vue",
+    "组件库"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jay6697117/cc-ui-uni-app-zjh.git"
+  },
+  "homepage": "https://github.com/jay6697117/cc-ui-uni-app-zjh.git",
+  "scripts": {},
+  "license": "ISC",
+  "dependencies": {
+    "async-validator": "^3.5.2",
+    "countup.js": "^2.0.7",
+    "dayjs": "^1.10.6",
+    "lodash": "^4.17.21"
+  }
+}
